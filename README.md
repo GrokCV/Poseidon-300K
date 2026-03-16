@@ -162,11 +162,11 @@ cd ..
 ---
 ### 🚀 Train
 ```shell
-sh tools/dist_train.sh 
+sh tools/dist_train.sh configs/HistEq/config_vit.py 4
 ```
 ### 🔍 Test
 ```shell
-sh tools/dist_test.sh 
+python tools/test.py configs/HistEq/config_vit.py <path/to/checkpoints>
 ```
 
 ## Citation
