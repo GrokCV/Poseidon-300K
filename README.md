@@ -69,8 +69,8 @@ We compare Poseidon-300K with existing benchmarks to highlight its scale and div
 | **Poseidon-300K** | **84,735** | **300,112** | **19** | **Y** | **258K (VQA)** | ✅ | ✅ | ✅ | ✅ |
 
 ### 📥 Download
-- **Poseidon-Det**: [[Google Drive]](#) | [[Baidu Pan]](#) 
-- **Poseidon-VQA**: [[Link]](#)
+- **Poseidon-Det**: [[Google Drive]](https://1drv.ms/u/c/869d5f1d401ac2ec/EZekCm-CurxGpYvC6isW8tgBUvvpJ6hurMe85xgqWK2qvw) | [[Baidu Pan]](https://pan.baidu.com/s/1uPXBMNPL0Amgg7bHbf7vHQ?pwd=sajp) 
+- **Poseidon-VQA**: [[Link]](https://pan.baidu.com/s/1eMru9zBXrZJxEUtCi-swQQ?pwd=39pz)
 
 
 
@@ -115,7 +115,7 @@ Comparison of different methods on Poseidon-300K.
 | Boost RCNN |57.6 | 84.3 | 66.1 | 41.8 | 50.1 | 62.3 
 | ERLNet|58.5 | 83.1 | 65.8 | 44.8 | 52.8 | 60.3 
 |UnitModule |58.8 | 86.0 | 64.8 | 45.8| 51.8 | 66.7
-|HistEqDet |88.2| 76.8 | 54.3 | 61.4 | 70.2|53.9
+|HistEqDet |67.8|88.2| 76.8 | 54.3 | 61.4 | 70.2
 ---
 
 ## 🛠️ Installation
