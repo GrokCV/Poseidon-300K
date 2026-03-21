@@ -141,8 +141,8 @@ env_cfg = dict(
     cudnn_benchmark=False,
     dist_cfg=dict(backend='nccl'),
     mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))
-launcher = 'none'
-load_from = 'work_dirs/tood_r50_fpn_1x_poseidon/20260127_160415/epoch_12.pth'
+launcher = 'pytorch'
+load_from = None
 log_level = 'INFO'
 log_processor = dict(
     _scope_='mmdet', by_epoch=True, type='LogProcessor', window_size=50)
@@ -322,7 +322,7 @@ param_scheduler = [
 resume = False
 test_cfg = dict(_scope_='mmdet', type='TestLoop')
 test_dataloader = dict(
-    batch_size=4,
+    batch_size=1,
     dataset=dict(
         ann_file='annotations/COCO/test.json',
         data_prefix=dict(img='images/test/'),
