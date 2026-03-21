@@ -84,7 +84,7 @@ We compare Poseidon-300K with existing benchmarks to highlight its scale and div
 ### Introduction
 This repository is the official implementation of Histogram Equalization Detection Model in "Poseidon-300K: Towards a Large-Scale Open Benchmark for Underwater Object Detection"
 
-Download the pretrained file and place it in the pretrained/ directory.(https://pan.baidu.com/s/1qiVlnYvlG-Rl7l5lAwkN7w?pwd=mayd)
+Download the pretrained file and place it in the pretrained/ directory.[pretrained file](https://pan.baidu.com/s/1qiVlnYvlG-Rl7l5lAwkN7w?pwd=mayd)
 
 ---
 
